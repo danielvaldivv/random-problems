@@ -1,0 +1,19 @@
+{
+  "name": "random-problems",
+  "version": "1.0.0",
+  "description": "Random proyects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielvaldivv/random-problems.git"
+  },
+  "author": "danielvaldivv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielvaldivv/random-problems/issues"
+  },
+  "homepage": "https://github.com/danielvaldivv/random-problems#readme"
+}
