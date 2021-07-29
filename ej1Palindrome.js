@@ -1,6 +1,6 @@
 function palindromeEval(text) {
     let textIn = text.toLowerCase().replace(/ /g, "").split('')
-    let arrayAdd= textIn.toString() 
+    let arrayAdd= textIn.toString()
     console.log(arrayAdd)
     let newArray = textIn.reverse()
     console.log(newArray)
@@ -15,4 +15,4 @@ function palindromeEval(text) {
     }
 }
 
-palindromeEval('Anita lava la tina')
+palindromeEval('Anita lava la tina');

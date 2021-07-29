@@ -4,7 +4,10 @@
   "description": "Random proyects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ej1": "node ej1Palindrome.js",
+    "ej2": "node ej2StringComb.js",
+    "ej3": "node ej3SumTwoNumb.js",
+    "ej4": "node ej4LongesComunPrefix.js"
   },
   "repository": {
     "type": "git",
