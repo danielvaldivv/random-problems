@@ -7,7 +7,8 @@
     "ej1": "node ej1Palindrome.js",
     "ej2": "node ej2StringComb.js",
     "ej3": "node ej3SumTwoNumb.js",
-    "ej4": "node ej4LongesComunPrefix.js"
+    "ej4": "node ej4LongesComunPrefix.js",
+    "ej5": "node ej5ValidParentheses.js"
   },
   "repository": {
     "type": "git",
