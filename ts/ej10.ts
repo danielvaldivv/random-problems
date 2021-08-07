@@ -1,7 +1,7 @@
 // Make an array of the names in h1s, and the ages in h2s
 
-function readyToPutInTheDOM(arr){
-    let arrayName = arr.map(function (object){
+function readyToPutInTheDOM(arr: any){
+    let arrayName = arr.map(function (object: any){
         return `<h1>${object.name}</h1><h2>${object.age}<h2>`})
     console.log(arrayName);
 }

@@ -1,11 +1,11 @@
-var addTwoNumbers = function(l1, l2) {
-    let textl1 = l1.toString()
-    let textl2 = l2.toString()
+var addTwoNumbers = function(l1: any, l2: any) {
+    let textl1: any = l1.toString()
+    let textl2: any = l2.toString()
 
     let arrayl1 = textl1.split("", textl1.length)
     let arrayl2 = textl2.split("", textl2.length)
     let arraySuma = []
-    for (i=0; i<textl1.length; i++){
+    for (let i:number =0; i<textl1.length; i++){
         let strArray1 = arrayl1[i]
         let strArray2 = arrayl2[i]
 
@@ -18,4 +18,4 @@ var addTwoNumbers = function(l1, l2) {
     let arrayReverse = arraySuma.reverse()
     console.log(arrayReverse)
 };
-addTwoNumbers(234, 455);
+addTwoNumbers( 234 , 455);

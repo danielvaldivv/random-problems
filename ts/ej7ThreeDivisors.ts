@@ -2,10 +2,10 @@
 
 // An integer m is a divisor of n if there exists an integer k such that n = k * m.
 
-var isThree = function(n) {
+var isThree = function(n: number) {
     let divisors = []
     for (let i = 0; i <= n; i++) {
-        div = n/i
+        let div: number = n/i
         if (div - Math.floor(div) == 0){
             divisors.push(div)
         }

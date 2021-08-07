@@ -1,12 +1,12 @@
 // Write a function to find the longest common prefix string amongst an array of strings.
 // If there is no common prefix, return an empty string "".
 
-var longestCommonPrefix = function(strs) {
+var longestCommonPrefix = function(strs: string[]) {
     let array1 = []
     let array2 = []
     let array3 = []
 
-    for (i=0; i < strs.length; i++){
+    for (let i=0; i < strs.length; i++){
         if(i===0) {
             let push = strs[0]
             array1.push(push)
@@ -38,16 +38,14 @@ var longestCommonPrefix = function(strs) {
     console.log(array3Separate)
     console.groupEnd()
 
-    let arraySolution = []
-    function eval() {
+    let arraySolution: string[] = []
+
+    for (let i=0; i<array1Separate.length; i++){
         if (array1Separate[i] == array2Separate[i] && array2Separate[i] == array3Separate[i]) {
             arraySolution.push(array1Separate[i])
         } else {
             i = array1Separate.length;
         }
-    }
-    for (i=0; i<array1Separate.length; i++){
-        eval();
     }
     console.log(arraySolution)
 };

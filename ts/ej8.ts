@@ -1,5 +1,5 @@
 // Take an array of numbers and make them strings
-function stringItUp(arr){
+function stringItUp(arr: number[]){
     let newArray = arr.map(function(number) {return number.toString()})
     console.log(newArray)
 }

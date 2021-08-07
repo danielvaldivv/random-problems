@@ -1,4 +1,4 @@
-function palindromeEval(text) {
+function palindromeEval(text:string) {
     let textIn = text.toLowerCase().replace(/ /g, "").split('')
     let arrayAdd= textIn.toString()
     console.log(arrayAdd)

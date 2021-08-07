@@ -4,19 +4,19 @@
   "description": "Random proyects",
   "main": "index.js",
   "scripts": {
-    "ej1": "node ej1Palindrome.js",
-    "ej2": "node ej2StringComb.js",
-    "ej3": "node ej3SumTwoNumb.js",
-    "ej4": "node ej4LongesComunPrefix.js",
-    "ej5": "node ej5ValidParentheses.js",
-    "ej6": "node ej6LengthofLastWord.js.js",
-    "ej7": "node ej7ThreeDivisors.js",
-    "ej8": "node ej8.js",
-    "ej9": "node ej9.js",
-    "ej10": "node ej10.js",
-    "ej11": "node ej11.js",
-    "ej12": "node ej12.js",
-    "ej13": "node ej13.js"
+    "ej1": "node /js/ej1Palindrome.js",
+    "ej2": "node ./js/ej2StringComb.js",
+    "ej3": "node ./js/ej3SumTwoNumb.js",
+    "ej4": "node ./js/ej4LongesComunPrefix.js",
+    "ej5": "node ./js/ej5ValidParentheses.js",
+    "ej6": "node ./js/ej6LengthofLastWord.js.js",
+    "ej7": "node ./js/ej7ThreeDivisors.js",
+    "ej8": "node ./js/ej8.js",
+    "ej9": "node ./js/ej9.js",
+    "ej10": "node ./js/ej10.js",
+    "ej11": "node ./js/ej11.js",
+    "ej12": "node ./js/ej12.js",
+    "ej13": "node ./js/ej13.js"
 
   },
   "repository": {

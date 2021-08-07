@@ -1,11 +1,9 @@
+"use strict";
 // Make an array of strings of the names saying whether or not they can go to The Matrix
-
-function makeStrings(arr){
-    let whoGoMatrix = arr.map( (object) =>
-    object.age > 20 ?`${object.name} can go to the Matrix!` : `${object.name} is under age!!`)
+function makeStrings(arr) {
+    let whoGoMatrix = arr.map((object) => object.age > 20 ? `${object.name} can go to the Matrix!` : `${object.name} is under age!!`);
     console.log(whoGoMatrix);
 }
-
 console.log(makeStrings([
     {
         name: "Angelina Jolie",
@@ -28,8 +26,8 @@ console.log(makeStrings([
         age: 100
     }
 ]));
-  // ["Angelina Jolie can go to The Matrix",
-  // "Eric Jones is under age!!",
-  // "Paris Hilton is under age!!",
-  // "Kayne West is under age!!",
-  // "Bob Ziroll can go to The Matrix"]
+// ["Angelina Jolie can go to The Matrix",
+// "Eric Jones is under age!!",
+// "Paris Hilton is under age!!",
+// "Kayne West is under age!!",
+// "Bob Ziroll can go to The Matrix"]

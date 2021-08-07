@@ -5,11 +5,11 @@
 // Open brackets must be closed by the same type of brackets.
 // Open brackets must be closed in the correct order.
 
-var isValid = function(s) {
+var isValid = function(s: string) {
     let arraySeparate = s.split('', s.length);
     console.log(arraySeparate);
 
-    for (j=0; j < arraySeparate.length - 1 ; j++) {
+    for (let j = 0; j < arraySeparate.length - 1 ; j++) {
         if (arraySeparate[j] == '[' && arraySeparate[j+1]==']') {
             arraySeparate.splice(j,2)
             j=-1

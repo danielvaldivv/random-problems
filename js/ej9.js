@@ -1,10 +1,10 @@
-function namesOnly(arr){
-    let names = arr.map(function (object){
-        return object.name
-    })
-    console.log(names)
+"use strict";
+function namesOnly(arr) {
+    let names = arr.map(function (object) {
+        return object.name;
+    });
+    console.log(names);
 }
-
 console.log(namesOnly([
     {
         name: "Angelina Jolie",

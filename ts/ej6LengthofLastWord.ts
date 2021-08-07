@@ -2,7 +2,7 @@
 
 // A word is a maximal substring consisting of non-space characters only.
 
-var lengthOfLastWord = function(s) {
+var lengthOfLastWord = function(s:string) {
     let words = s.split(" ")
     console.log(words[words.length - 1].length)
 };
